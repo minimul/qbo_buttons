@@ -10,8 +10,8 @@ module QboButtons
     end
 
     initializer 'qbo_buttons.link_helper' do |app|
-      ActiveSupport.on_load(:action_controller) do
-        ::ActionController::Base.helper(QboButtons::LinkHelper)
+      ActiveSupport.on_load :action_view do
+        include QboButtons::LinkHelper
       end
     end
   end
