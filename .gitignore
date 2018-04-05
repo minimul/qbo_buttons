@@ -9,3 +9,4 @@ spec/dummy/.sass-cache
 scrap.txt
 .DS_Store
 Gemfile.lock
+README.md.html
