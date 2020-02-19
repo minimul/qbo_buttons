@@ -1,5 +1,7 @@
 # QboButtons
 
+## IMPORTANT: GEM IS NO LONGER BE MAINTAINED. It is better to [JUST CHERRY-PICK the svgs](https://github.com/minimul/qbo_buttons/tree/master/app/assets/qbo_buttons) you need then to add yet another gem to your Gemfile anyhow.
+
 ### Rails plugin to leverage QuickBooks Connect SVG images and buttons
 
 #### Rails v.4 and greater supported
